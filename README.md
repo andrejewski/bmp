@@ -1,6 +1,6 @@
 # bmp
 
-bmp /bump/ is a command-line utility for quickly changing versions in a Node module's package.json file.
+Bmp (said /bump/) is a small command-line utility for quickly setting or incrementing the version in an NPM module's package.json file.
 
 ```bash
 npm install --global bmp
@@ -10,18 +10,26 @@ npm install --global bmp
 
 ```bash
 
-  usage: bmp [command]
+usage: bmp [command]
 
-  commands:
-    (no args):      prints current version
-    major, b, M:    increment major version (M.0.0)
-    minor, m:       increment minor version (x.m.0)
-    patch, p:       increment patch version (x.x.p)
-    help:           prints the help menu
-    (otherwise):    validates & sets version to arg
+commands:
+  (no args):      prints current version
+  major, b, M:    increment major version (M.0.0)
+  minor, m:       increment minor version (x.m.0)
+  patch, p:       increment patch version (x.x.p)
+  help:           prints the help menu
+  (otherwise):    validates & sets version to arg
 
-  bmp version: 0.0.1
+```
 
+## Examples
+
+```bash
+bmp        # -> 1.0.4
+bmp M      # -> 2.0.0
+bmp m      # -> 2.1.0
+bmp p      # -> 2.1.1
+bmp 1.0.4  # -> 1.0.4
 ```
 
 ## Contributing 

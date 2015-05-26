@@ -6,6 +6,7 @@
   "bin": {
     "bmp": "bmp.js"
   },
+  "preferGlobal": true,
   "directories": {
     "test": "test"
   },
