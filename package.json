@@ -1,0 +1,31 @@
+{
+  "name": "bmp",
+  "version": "0.0.1",
+  "description": "node package version bumper",
+  "main": "index.js",
+  "bin": {
+    "bmp": "bmp.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "semver": "^4.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrejewski/bmp.git"
+  },
+  "author": "Chris Andrejewski <christopher.andrejewski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrejewski/bmp/issues"
+  },
+  "homepage": "https://github.com/andrejewski/bmp"
+}
